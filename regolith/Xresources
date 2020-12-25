@@ -1,0 +1,33 @@
+
+# Use gnome wallpaper
+gnome.wallpaper:
+
+# Gaps
+i3-wm.gaps.inner.size: 5
+
+# Border
+i3-wm.floatingwindow.border.size: 3
+i3-wm.window.border.size: 3
+i3-wm.client.focused.color.child_border: #4287f5
+i3-wm.client.focused.color.indicator: #fcba03
+# Theme
+gnome.icon.theme: Yaru
+
+# Terminal
+gnome.terminal.font: Firacode 14
+
+# Rofi
+rofi.fullscreen: 	    false
+rofi.show-icons:            true
+rofi.modi:                  drun,run,window,ssh
+rofi.lines:                 7
+rofi.line-padding:          10
+rofi.bw:                    0
+rofi.matching:              normal
+rofi.padding:               0
+rofi.separator-style:       none
+rofi.hide-scrollbar:        true
+rofi.line-margin:           0
+rofi.font:                  San Francisco Display 12
+rofi.theme: 		    /home/andrew/.config/regolith/rofi/rofi.rasi
+rofi.dpi: 		    192
