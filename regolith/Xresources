@@ -4,12 +4,14 @@ gnome.wallpaper:
 
 # Gaps
 i3-wm.gaps.inner.size: 5
+i3-wm.gaps.smart: inverse_outer
 
 # Border
 i3-wm.floatingwindow.border.size: 3
 i3-wm.window.border.size: 3
 i3-wm.client.focused.color.child_border: #4287f5
 i3-wm.client.focused.color.indicator: #fcba03
+
 # Theme
 gnome.icon.theme: Yaru
 
