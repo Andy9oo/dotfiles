@@ -19,7 +19,7 @@ gnome.icon.theme: Yaru
 gnome.terminal.font: Firacode 14
 
 # Rofi
-rofi.fullscreen: 	    false
+rofi.fullscreen: 	        false 
 rofi.show-icons:            true
 rofi.modi:                  drun,run,window,ssh
 rofi.lines:                 7
@@ -31,5 +31,4 @@ rofi.separator-style:       none
 rofi.hide-scrollbar:        true
 rofi.line-margin:           0
 rofi.font:                  San Francisco Display 12
-rofi.theme: 		    /home/andrew/.config/regolith/rofi/rofi.rasi
-rofi.dpi: 		    192
+rofi.dpi: 		            90
