@@ -23,7 +23,7 @@ Xcursor.size: 32
 gnome.terminal.font: Firacode 14
 
 # Rofi
-rofi.fullscreen: 	    false
+rofi.fullscreen: 	        false 
 rofi.show-icons:            true
 rofi.modi:                  drun,run,window,ssh
 rofi.lines:                 7
