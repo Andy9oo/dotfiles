@@ -2,6 +2,9 @@
 # Use gnome wallpaper
 gnome.wallpaper:
 
+# Change sleep binding 
+i3-wm.binding.sleep: $mod+Shift+z
+
 # Gaps
 i3-wm.gaps.inner.size: 5
 i3-wm.gaps.smart: inverse_outer
