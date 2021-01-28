@@ -18,6 +18,10 @@ i3-wm.client.focused.color.indicator: #fcba03
 # Theme
 gnome.icon.theme: Yaru
 
+# Set Screen dpi
+Xft.dpi: 192
+Xcursor.size: 32
+
 # Terminal
 gnome.terminal.font: Firacode 14
 
@@ -34,4 +38,5 @@ rofi.separator-style:       none
 rofi.hide-scrollbar:        true
 rofi.line-margin:           0
 rofi.font:                  San Francisco Display 12
-rofi.dpi: 		            90
+rofi.theme: 		        /home/andrew/.config/regolith/rofi/rofi.rasi
+rofi.dpi:                   192
