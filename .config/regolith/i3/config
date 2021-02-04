@@ -431,6 +431,9 @@ bindsym $mod+$i3-wm.binding.notification_ui exec $i3-wm.program.notification_ui
 ## Launch // Mail Client // <super> m ##
 bindsym $mod+m exec mailspring
 
+## Sticky windows
+bindsym $mod+Shift+s sticky toggle
+
 ###############################################################################
 # Workspace Management
 ###############################################################################
