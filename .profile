@@ -28,11 +28,14 @@ fi
 
 # Setup display scaling
 # Display scaling
-export GDK_SCALE=2
-export GDK_DPI_SCALE=0.5
-export QT_AUTO_SCREEN_SET_FACTOR=0
-export QT_SCALE_FACTOR=2
+export GDK_SCALE=1
+export GDK_DPI_SCALE=1
+export QT_AUTO_SCREEN_SET_FACTOR=1
+export QT_SCALE_FACTOR=1
 export QT_FONT_DPI=96
 
 # Scale display
-xrandr --output eDP-1 --scale 1.14x1.14
+# xrandr --output eDP-1 --scale 1.14x1.14
+
+# Setup android
+export ANDROID_HOME=/home/andrew/Android/Sdk 
