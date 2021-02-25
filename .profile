@@ -27,12 +27,14 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # Setup display scaling
-# Display scaling
 export GDK_SCALE=2
-export GDK_DPI_SCALE=0.5
+export GDK_DPI_SCALE=1
 export QT_AUTO_SCREEN_SET_FACTOR=0
-export QT_SCALE_FACTOR=2
-export QT_FONT_DPI=96
+export QT_SCALE_FACTOR=1
+export QT_FONT_DPI=192
 
 # Scale display
-xrandr --output eDP-1 --scale 1.14x1.14
+xrandr --output $(xrandr | grep -w connected  | awk -F'[ \+]' '{print $1}') --scale 1.5x1.5
+
+# Path variables
+export ANDROID_HOME="/home/andrew/Android/Sdk"

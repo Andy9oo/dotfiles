@@ -1,4 +1,3 @@
-
 # Use gnome wallpaper
 gnome.wallpaper:
 
@@ -17,26 +16,15 @@ i3-wm.client.focused.color.indicator: #fcba03
 
 # Theme
 gnome.icon.theme: Yaru
+gnome.gtk.theme: Yaru
 
 # Set Screen dpi
 Xft.dpi: 192
-Xcursor.size: 32
+Xcursor.size: 64
 
 # Terminal
 gnome.terminal.font: Firacode 14
 
 # Rofi
-rofi.fullscreen: 	        false 
-rofi.show-icons:            true
-rofi.modi:                  drun,run,window,ssh
-rofi.lines:                 7
-rofi.line-padding:          10
-rofi.bw:                    0
-rofi.matching:              normal
-rofi.padding:               0
-rofi.separator-style:       none
-rofi.hide-scrollbar:        true
-rofi.line-margin:           0
-rofi.font:                  San Francisco Display 12
-rofi.theme: 		        /home/andrew/.config/regolith/rofi/rofi.rasi
+rofi.font:                  Firacode 14
 rofi.dpi:                   192
