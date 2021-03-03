@@ -5,7 +5,7 @@ gnome.wallpaper:
 i3-wm.binding.sleep: $mod+Shift+z
 
 # Gaps
-i3-wm.gaps.inner.size: 5
+i3-wm.gaps.inner.size: 15
 i3-wm.gaps.smart: inverse_outer
 
 # Border
