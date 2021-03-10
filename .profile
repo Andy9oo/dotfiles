@@ -37,4 +37,4 @@ export QT_FONT_DPI=192
 xrandr --output $(xrandr | grep -w connected  | awk -F'[ +]' '{print $1}') --scale 1.5x1.5
 
 # Path variables
-export ANDROID_HOME="/home/andrew/Android/Sdk"
+export ANDROID_HOME="/home/andrew/android/sdk"
