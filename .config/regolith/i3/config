@@ -1,40 +1,4 @@
 ###############################################################################
-# i3-gaps config file for the Regolith Desktop Environment
-#
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
-#
-###############################################################################
-#
-# In this config file many values are taken from Xresources with the directive
-# set_from_resource:
-#
-# set_from_resource <i3 variable name> <Xresources key> <default value>
-#
-# This configuration file utilizes Xresource variables to change configuration
-# without having to make a copy of this config file.
-# The benefit to not copying this file is easier upgrades in the future.
-# To update a value in this config without making a copy, update the Xresource
-# value in the file ~/.config/regolith/Xresources.
-#
-# For example, to change the bar position to the top of the screen this is the
-# i3 config entry in this file:
-# set_from_resource $i3-wm.bar.position i3-wm.bar.position bottom
-#
-# So add this line to ~/.config/regolith/Xresources to change it's value:
-# i3-wm.bar.position: top
-#
-# Reload i3 after making Xresource changes.  Learn more at
-# https://regolith-linux.org/docs/howto/override-xres/
-#
-###############################################################################
-#
-# This file uses a machine-parsable format for comments. The schema is:
-# ## <Category> // <Action> // <Keybinding> ##
-# Learn more at https://github.com/regolith-linux/remontoire
-#
-###############################################################################
-
-###############################################################################
 # Key Mappings
 ###############################################################################
 
@@ -84,6 +48,30 @@ set_from_resource $ws7_key  i3-wm.workspace.07.key 7
 set_from_resource $ws8_key  i3-wm.workspace.08.key 8
 set_from_resource $ws9_key  i3-wm.workspace.09.key 9
 set_from_resource $ws10_key i3-wm.workspace.10.key 0
+
+###############################################################################
+# Workspace Displays
+###############################################################################
+
+workspace 1 output DP-2
+workspace 2 output DP-2
+workspace 3 output DP-2
+workspace 4 output DP-2
+workspace 5 output DP-2
+workspace 6 output DP-2
+workspace 7 output DP-2
+workspace 8 output DP-2
+workspace 9 output DP-2
+workspace 10  output DP-2
+workspace 11 output HDMI-2
+workspace 12 output HDMI-2
+workspace 13 output HDMI-2
+workspace 14 output HDMI-2
+workspace 15 output HDMI-2
+workspace 16 output HDMI-2
+workspace 17 output HDMI-2
+workspace 18 output HDMI-2
+workspace 19 output HDMI-2
 
 ###############################################################################
 # Launcher dialogs
