@@ -1,19 +1,6 @@
 # Use gnome wallpaper
 gnome.wallpaper:
 
-# Change sleep binding 
-i3-wm.binding.sleep: $mod+Shift+z
-
-# Gaps
-i3-wm.gaps.inner.size: 15
-i3-wm.gaps.smart: inverse_outer
-
-# Border
-i3-wm.floatingwindow.border.size: 3
-i3-wm.window.border.size: 3
-i3-wm.client.focused.color.child_border: #4287f5
-i3-wm.client.focused.color.indicator: #fcba03
-
 # Theme
 gnome.icon.theme: Yaru
 gnome.gtk.theme: Yaru
@@ -26,5 +13,5 @@ Xcursor.size: 64
 gnome.terminal.font: Firacode 14
 
 # Rofi
-rofi.font:                  Firacode 14
-rofi.dpi:                   192
+rofi.font: Firacode 14
+rofi.dpi: 192
