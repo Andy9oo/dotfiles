@@ -51,7 +51,7 @@ set $ws10_key 0
 ###############################################################################
 
 ## Set Rofi Theme
-set $rofiTheme /etc/regolith/styles/lascaille/rofi.rasi
+set $rofiTheme /home/andrew/.config/rofi/rofi.rasi
 
 ## Terminal (Super + Enter)
 bindsym $mod+Return exec /usr/bin/x-terminal-emulator
@@ -70,9 +70,6 @@ bindsym $mod+Shift+question exec --no-startup-id /usr/bin/remontoire-toggle
 
 ## File Search (Super + Alt + Space) 
 bindsym $mod+$alt+space exec rofi -show find -modi find:/usr/share/rofi/modi/finder.sh
-
-## Look Selector (Super + Alt + l)
-bindsym $mod+$alt+l exec rofi -show look -modi look:/usr/share/rofi/modi/look-selector.sh`
 
 ###############################################################################
 # Windows
@@ -396,22 +393,20 @@ focus_follows_mouse no
 bar {
   position bottom
   mode dock
-  font pango:Source Code Pro Medium 13, Material Design Icons 13
+  font pango:Source Code Pro Medium 13, FontAwesome 13
   separator_symbol " "
   status_command i3xrocks -u ~/.config/regolith/i3xrocks/conf.d -d /etc/regolith/i3xrocks/conf.d
   tray_output primary
   strip_workspace_numbers yes
 
   colors {
-      background "#002B36"
-      statusline "#93A1A1"
-      separator  "#268BD2"
+      background "#292B30"
 
       ## class            border        background     text
-      focused_workspace  "#073642"     "#073642"      "#EEE8D5"
-      active_workspace   "#073642"     "#073642"      "#586E75"
-      inactive_workspace "#002B36"     "#002B36"      "#586E75"
-      urgent_workspace   "#DC322F"     "#DC322F"      "#FDF6E3"
+      focused_workspace  "#292B30"     "#292B30"      "#FFFFFF"
+      active_workspace   "#292B30"     "#292B30"      "#555555"
+      inactive_workspace "#292B30"     "#292B30"      "#555555"
+      urgent_workspace   "#963232"     "#963232"      "#FFFFFF"
   }
 }
 
