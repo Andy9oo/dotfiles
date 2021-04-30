@@ -1,18 +1,12 @@
 /* global settings and color variables */
 * {
-   blue:             #a6e1ff;
-   darkblue:         #B48EAD;
-   cyan:             #95e6cb;
-   lightcyan:        #B48EAD;
-   green:            #cee6ac;
-   red:              #ff6666;
-
    dark1:            #292B30;
    dark2:            #555555;
    dark3:            #bfbab0;
    dark4:            #bfbab0;
 
    light1:           #FFFFFF;
+   red:              #ff6666;
 
    background-color: @dark1;
    border-color:     @dark2;
@@ -91,7 +85,7 @@ element selected.urgent {
 
 element selected.active {
     background-color: @border-color;
-    text-color:       @green;
+    text-color:       @selected-color;
 }
 
 element alternate.normal {

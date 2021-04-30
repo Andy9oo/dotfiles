@@ -15,3 +15,4 @@ gnome.terminal.font: Firacode 14
 # Rofi
 rofi.font: Firacode 14
 rofi.dpi: 192
+rofi.theme: /home/andrew/.config/rofi/rofi.rasi
