@@ -168,14 +168,14 @@ bindsym $mod+Ctrl+$ws9_key workspace number $ws19
 ## Next Workspace (Super + Tab)
 bindsym $mod+Tab workspace next
 
-## Next Workspace (Super + Alt + →)
-bindsym $mod+$alt+Right workspace next
+## Next Workspace (Super + Ctrl + →)
+bindsym $mod+Ctrl+Right workspace next
 
 ## Previous Workspace (Super + Shift + Tab)
 bindsym $mod+Shift+Tab workspace prev
 
-## Previous Workspace (Super + Alt + ←)
-bindsym $mod+$alt+Left workspace prev
+## Previous Workspace (Super + Ctrl + ←)
+bindsym $mod+Ctrl+Left workspace prev
 
 ## Move Window to Workspace 1 - 10 (Super + Shift + 0..9)
 bindsym $mod+Shift+$ws1_key move container to workspace number $ws1
