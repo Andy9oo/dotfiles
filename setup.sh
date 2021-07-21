@@ -34,7 +34,7 @@ sudo apt-get -y upgrade
 #################################################################
 
 # APT Packages
-sudo apt-get -y install alacritty android-studio code curl fish fonts-firacode geary gimp git gnome-tweaks gnome-calendar golang openjdk-11-jdk transmission typora ranger ubuntu-restricted-extras vim xournalpp
+sudo apt-get -y install alacritty android-studio code curl fish fonts-firacode geary gimp git gnome-tweaks gnome-calendar golang openjdk-11-jdk transmission typora ranger ubuntu-restricted-extras vim vlc
 
 # Fish packages
 omf install
@@ -49,7 +49,7 @@ sudo dpkg -i slack-desktop-4.12.2-amd64.deb
 rm slack-desktop-4.12.2-amd64.deb
 
 # Snap Packages
-sudo snap install discord mysql-workbench-community postman robo3t-snap zoom-client
+sudo snap install discord mysql-workbench-community postman robo3t-snap xournalpp zoom-client
 
 #################################################################
 #                     CREATE DIRECTORIES                        #
