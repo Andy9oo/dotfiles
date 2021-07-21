@@ -18,6 +18,18 @@ This will install all programs, create folders, and copy the configs from this r
 
 ## Laptop Fixes
 
+### Fix "Dummy Output" / "No Codecs Found"
+To fix the issue with "Dummy output" or "No Codecs Found" run the following two commands:
+
+```sh
+$ echo "options snd-hda-intel dmic_detect=0" | sudo tee -a /etc/modprobe.d/alsa-base.conf
+$ echo "blacklist snd_soc_skl" | sudo tee -a /etc/modprobe.d/blacklist.conf
+```
+
+After this `reboot` and sound should be working.
+
+### Fix Soundbar Issues
+
 Install alsa-tools
 
 ```sh

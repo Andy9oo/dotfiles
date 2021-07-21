@@ -57,9 +57,3 @@ sudo snap install discord mysql-workbench-community postman robo3t-snap zoom-cli
 
 sudo mkdir -p ~/Code/work
 sudo mkdir -p ~/Code/personal
-
-#################################################################
-#                        SETUP i3-gaps                          #
-#################################################################
-# sudo add-apt-repository -y ppa:regolith-linux/stable
-# sudo apt install -y i3-gaps
