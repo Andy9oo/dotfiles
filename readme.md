@@ -16,3 +16,19 @@ After cloning the repo, use the following command to create sym-links in the con
 ```sh
 cp -r --symbolic-link --remove-destination /home/andrew/dotfiles/.* /home/andrew/
 ```
+
+## Laptop Fixes
+
+Install alsa-tools
+
+```sh
+$ sudo apt install alsa-tools-gui
+```
+
+Open `hdajackretask`
+
+## Notes
+- fish needs to be installed first
+- including omf 
+- maybe create a script to do that
+- ssh key needs to be added to github as well
