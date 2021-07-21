@@ -34,7 +34,7 @@ sudo apt-get -y upgrade
 #################################################################
 
 # APT Packages
-sudo apt-get -y install alacritty android-studio code curl fish fonts-firacode geary gimp git gnome-tweaks golang openjdk-11-jdk transmission typora ranger ubuntu-restricted-extras vim xournalpp
+sudo apt-get -y install alacritty android-studio code curl fish fonts-firacode geary gimp git gnome-tweaks gnome-calendar golang openjdk-11-jdk transmission typora ranger ubuntu-restricted-extras vim xournalpp
 
 # Fish packages
 omf install
