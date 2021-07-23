@@ -11,5 +11,5 @@ set PATH /home/andrew/go/bin $PATH
 set PATH /usr/local/go/bin $PATH
 
 # Exports
-set -x ANDROID_HOME /home/andrew/android/sdk
+set -x ANDROID_HOME /home/andrew/.android-sdk
 set -x GOPATH /home/andrew/go

@@ -8,10 +8,14 @@ $ chsh -s /usr/bin/fish
 $ curl -L https://get.oh-my.fish | fish
 ```
 
-Once `fish` has been installed, run the setup script
+Once `fish` has been installed, clone the dotfiles repo: 
+```sh
+$ git clone git@github.com/Andy9oo/dotfiles ~/.dotfiles
+```
+and run the setup script
 
 ```sh
-$ ./setup.sh
+$ ~/.dotfiles/setup.sh
 ```
 
 This will install all programs, create folders, and copy the configs from this repo.

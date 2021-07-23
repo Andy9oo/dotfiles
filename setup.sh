@@ -55,5 +55,18 @@ sudo snap install discord mysql-workbench-community postman robo3t-snap xournalp
 #                     CREATE DIRECTORIES                        #
 #################################################################
 
-sudo mkdir -p ~/Code/work
-sudo mkdir -p ~/Code/personal
+mkdir -p ~/Code/work
+mkdir -p ~/Code/personal
+
+# Techairos Directories
+mkdir -p ~/Code/work/abalobi
+mkdir -p ~/Code/work/bip
+mkdir -p ~/Code/work/devops
+mkdir -p ~/Code/work/wta
+mkdir -p ~/Code/work/xpl
+
+#################################################################
+#                   SETUP KEYBOARD SHORTCUTS                    #
+#################################################################
+# TODO
+# gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "[]"
