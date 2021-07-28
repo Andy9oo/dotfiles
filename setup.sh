@@ -34,7 +34,7 @@ sudo apt-get -y upgrade
 #################################################################
 
 # APT Packages
-sudo apt-get -y install alacritty android-studio code curl fish fonts-firacode geary gimp git gnome-tweaks gnome-calendar golang htop openjdk-11-jdk transmission tree typora ranger ubuntu-restricted-extras vim vlc
+sudo apt-get -y install alacritty android-studio code curl fish fonts-firacode geary gimp git gnome-tweaks gnome-calendar golang hugo htop node-typescript make openjdk-11-jdk transmission tree typora ranger ubuntu-restricted-extras vim vlc
 
 # Fish packages
 omf install
@@ -42,6 +42,13 @@ source /home/andrew/.config/fish/config.fish
 
 # NodeJS
 nvm install 14.6
+
+# Pop shell
+git clone https://github.com/pop-os/shell.git
+cd shell
+make local-install
+cd ..
+rm -rf shell
 
 # Slack
 wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.12.2-amd64.deb
