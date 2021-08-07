@@ -10,7 +10,7 @@ $ curl -L https://get.oh-my.fish | fish
 
 Once `fish` has been installed, clone the dotfiles repo: 
 ```sh
-$ git clone git@github.com/Andy9oo/dotfiles ~/.dotfiles
+$ git clone git@github.com:Andy9oo/dotfiles ~/.dotfiles
 ```
 and run the setup script
 
